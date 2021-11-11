@@ -23,6 +23,10 @@
                 <behavior>Edit</behavior>
                 <field>copado__Index_Metadata__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>External_Id__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -112,8 +116,10 @@
     </miniLayout>
     <relatedLists>
         <fields>NAME</fields>
+        <fields>copado__Release__c</fields>
         <fields>copado__Start_Date__c</fields>
         <fields>copado__End_Date__c</fields>
+        <fields>External_Id__c</fields>
         <fields>copado__Status__c</fields>
         <fields>copado__Story_points__c</fields>
         <relatedList>copado__Sprint__c.copado__Project__c</relatedList>
@@ -173,7 +179,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h24000001ec7S</masterLabel>
+        <masterLabel>00h5f000004lCL8</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>
