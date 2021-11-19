@@ -136,4 +136,8 @@
         <name>copado__Copado_Selenium_Testing</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Travel_App</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>
