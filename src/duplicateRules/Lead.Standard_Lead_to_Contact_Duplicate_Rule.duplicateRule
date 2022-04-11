@@ -31,10 +31,6 @@
                 <outputField>MailingCity</outputField>
             </mappingFields>
             <mappingFields>
-                <inputField>Company</inputField>
-                <outputField>AccountId</outputField>
-            </mappingFields>
-            <mappingFields>
                 <inputField>Street</inputField>
                 <outputField>MailingStreet</outputField>
             </mappingFields>
@@ -45,6 +41,10 @@
             <mappingFields>
                 <inputField>Title</inputField>
                 <outputField>Title</outputField>
+            </mappingFields>
+            <mappingFields>
+                <inputField>Company</inputField>
+                <outputField>AccountId</outputField>
             </mappingFields>
             <outputObject>Contact</outputObject>
         </objectMapping>
